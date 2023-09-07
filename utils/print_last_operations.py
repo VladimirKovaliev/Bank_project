@@ -4,6 +4,17 @@ from utils.mask_card_number import mask_card_number
 
 
 def print_last_operations(n=5):
+    '''
+    Функция принимает на вход JSON файл, читает его и выводит 5 последних операций
+    по карте в формате
+
+    <дата перевода> <описание перевода>
+    <откуда> -> <куда>
+    <сумма перевода> <валюта>
+
+    :param n:
+    :return:
+    '''
     with open('operations.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -32,5 +43,5 @@ def print_last_operations(n=5):
         else:
             print(f"**{account_to[-4:]}")
         print(f"{amount:.2f} {currency}")
-    print()
+
 
