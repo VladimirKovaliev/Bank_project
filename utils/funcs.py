@@ -41,5 +41,3 @@ def mask_card_number(card_number):
     else:
         return f'{digits[:4]} {digits[:2]}** **** {digits[-4:]}'
 
-
-print_last_operations()
