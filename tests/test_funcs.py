@@ -99,3 +99,28 @@ def test_mask_card_number():
     # Тест №4: карта с другой локализацией.
     assert mask_card_number('Visa 4040111122223333') == 'Visa 4040 40** **** 3333'
 
+def test_print_operation(capsys):
+    # Создаем пример операции
+    operation = {
+        'date': '2021-10-15T12:00:00Z',
+        'description': 'Payment for goods',
+        'operationAmount': {
+            'amount': '100.45',
+            'currency': {
+                'name': 'USD'
+            }
+        },
+        'from': 'Visa 4040123456789012',
+        'to': '1234567890123456'
+    }
+
+    # Вызываем функцию для элементарной проверки.
+    print_operation(operation)
+
+    # Проверяем, что вывод соответствует ожидаемому.
+    captured = capsys.readouterr()
+    assert captured.out == """ 
+15.10.2021 Payment for goods
+Visa 4040 40** **** 9012 -> **3456
+100.45 USD
+"""
