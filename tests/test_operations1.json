@@ -1,0 +1,1 @@
+[{"date": "2021-09-01T09:00:00Z", "description": "Test operation 1", "operationAmount": {"amount": 1000.0, "currency": {"name": "RUB"}}, "to": "228", "from": "1337"}]
