@@ -1,5 +1,5 @@
 
-from utils.print_last_operations import print_last_operations
+from utils.funcs import print_last_operations
 
 
 print_last_operations()
