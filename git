@@ -1,0 +1,101 @@
+[33mcommit 359ad0a05bbf0879903d3dda8b3170a820aa0d8d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Sat Sep 9 17:37:38 2023 +0300
+
+    fixes
+
+[33mcommit 4ba544880822dac7b2ece2ab969778c7685a783d[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Sat Sep 9 17:37:28 2023 +0300
+
+    удалил старый код
+
+[33mcommit db10c0c35a54e5e871a4891388f4d400578db717[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Sat Sep 9 17:37:05 2023 +0300
+
+    переписал функции, сделал код более читаемым, разбил функцию на несколько более мелких функций
+
+[33mcommit bbe8449db20af520a13361a3be28aafa6449c09f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: VladimirKovaliev <142924160+VladimirKovaliev@users.noreply.github.com>
+Date:   Thu Sep 7 19:56:00 2023 +0300
+
+    Update README.md
+
+[33mcommit 0d6c5e60143947e03d7f01ab28052e59c8fb505f[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 19:20:56 2023 +0300
+
+    add docstrings
+
+[33mcommit c5a090319baaf80ce017596e50b56d5be2a88d9d[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 19:13:34 2023 +0300
+
+    add tests
+
+[33mcommit 132e2f6e4fe5fdf7ec283d6bb6515d31a41ebf59[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 19:12:19 2023 +0300
+
+    fixes
+
+[33mcommit 251d93c6851f176b2324632b89e21d4b737d2c21[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 19:11:54 2023 +0300
+
+    add requirements
+
+[33mcommit 691d6537428ba5c13fc17c36f03e5deb1f8eda4f[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 17:34:44 2023 +0300
+
+    fixes
+
+[33mcommit 4e838fdf90cec64b07b3b4e62fe32605320ff51b[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 16:34:25 2023 +0300
+
+    add main.py
+
+[33mcommit ed682d92bb4d9f13aa1fba1303c4076f79ae0092[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 16:34:11 2023 +0300
+
+    fixes
+
+[33mcommit 0df6401526f6c9a22636ad011c9d4d5eb9031100[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 16:26:06 2023 +0300
+
+    fixes
+
+[33mcommit 0a58ad18921faffb981dcf108df0e6721ba80d3e[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 16:25:50 2023 +0300
+
+    add funcs 'mask_card_number' and 'print_last_operations'
+
+[33mcommit bbed93b5184dba27b6e20b80a797a9285f547c52[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Thu Sep 7 16:24:18 2023 +0300
+
+    add funcs.py
+
+[33mcommit 12e15c3a3115dff078e754b9f39beb1180d3ea23[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Wed Sep 6 16:06:05 2023 +0300
+
+    Добавил функции для работы
+
+[33mcommit e73f3ba8e4ac48e4d3e9a7a8c02c91cb00b28b07[m
+Author: VladimirKovaliev <kovaliev.v@list.ru>
+Date:   Wed Sep 6 15:47:20 2023 +0300
+
+    Добавил директории и файлы для работы
+
+[33mcommit 0d0264e169ad81c0e68eb3558f14d903faf4a340[m
+Author: VladimirKovaliev <142924160+VladimirKovaliev@users.noreply.github.com>
+Date:   Wed Sep 6 15:46:19 2023 +0300
+
+    Initial commit
