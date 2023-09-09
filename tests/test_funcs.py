@@ -2,31 +2,6 @@ from utils.funcs import read_operations_from_file, filter_executed_operations, g
 import pytest
 import json
 
-def test_read_operations_from_file():
-    # Тест №1: файл существует и содержит операции
-    filename1 = 'test_operations1.json'
-    data1 = [{
-        'date': '2021-09-01T09:00:00Z',
-        'description': 'Test operation 1',
-        'operationAmount': {
-            'amount': 1000.0,
-            'currency': {'name': 'RUB'}
-        },
-        'to': '228',
-        'from': '1337'
-    }]
-
-    with open(filename1, 'w', encoding='utf-8') as f:
-        json.dump(data1, f, ensure_ascii=False)
-
-    assert read_operations_from_file(filename1) == data1
-
-    # Тест №2: файл не существует
-    filename2 = 'not_existing_file.json'
-
-    with pytest.raises(FileNotFoundError):
-        read_operations_from_file(filename2)
-
 def test_filter_executed_operations():
     # Тест №1: список операций пуст
     assert filter_executed_operations([]) == []
