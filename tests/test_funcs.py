@@ -84,3 +84,18 @@ def test_get_last_n_operations():
             'description': 'Test operation 3'
         }]
     assert get_last_n_operations
+
+
+def test_mask_card_number():
+    # Тест №1: простая карта
+    assert mask_card_number('Visa 4040123456789012') == 'Visa 4040 40** **** 9012'
+
+    # Тест №2: вводятся данные, соответствующие другому типу карты
+    assert mask_card_number('Mastercard 5440123456789012') == 'Mastercard 5440 54** **** 9012'
+
+    # Тест №3: карта с пробелами
+    #assert mask_card_number('   Visa 4040111122223333') == 'Visa 404011 ** **** 3333'
+
+    # Тест №4: карта с другой локализацией.
+    assert mask_card_number('Visa 4040111122223333') == 'Visa 4040 40** **** 3333'
+
