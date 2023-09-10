@@ -46,7 +46,7 @@ def print_operation(operation):
         print(f"{mask_card_number(account_to)}")
     print(f"{amount:.2f} {currency}")
 
-def print_last_operations(n=5, filename='operations.json'):
+def print_last_operations(n, filename):
     '''
     Функция принимает на вход JSON файл, читает его и выводит 5 последних операций
     по карте в формате
